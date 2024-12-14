@@ -1,0 +1,79 @@
+= EcoStd
+:copyright: Copyright {docyear} René Ferdinand Rivera Morell
+:version-label!:
+:reproducible:
+:nofooter:
+:linkcss:
+:stylesheet: tweaks.css
+:docinfo: private
+:noheader:
+:ecostd-www: https://ecostd.github.io/
+:ecostd-logo-img: logo.svg
+
+// ----------------------------------------------------------------------------
+
+++++
+<section class="hero">
+++++
+
+include::_nav.adoc[]
+
+[.hero-body]
+--
+[.title.is-1]
+EcoStd
+
+[.subtitle]
+Standards for Programming Language Tools
+--
+
+++++
+</section>
+++++
+
+// ----------------------------------------------------------------------------
+
+++++
+<section class="hero is-primary">
+++++
+
+[.hero-body]
+--
+
+++++
+<div class="columns">
+++++
+
+[.column]
+[.title]#What?# +
+ +
+We define standards for the tools that make programming tools work in harmony
+with each other.
+
+[.column]
+[.title]#Languages# +
+ +
+Our initial focus for tool standards is in bringing coherence and interoperation
+for the tools that drive the {CPP} programming language.
+
+[.column]
+[.title]#Getting Involved# +
+ +
+We welcome contributions in our efforts for better programming through tools.
+But until we have a defined contribution process, you can join and inquire in
+the https://groups.google.com/g/cxx-ecosystem-evolution[{CPP} Ecosystem Evolution]
+forum.
+
+++++
+</div>
+++++
+
+--
+
+++++
+</section>
+++++
+
+// ----------------------------------------------------------------------------
+
+include::_footer.adoc[]

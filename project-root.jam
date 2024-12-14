@@ -1,0 +1,29 @@
+#| Copyright René Ferdinand Rivera Morell
+|#
+
+import asciidoctor ;
+
+project /ecostd.github.io
+	: build-dir .build
+	;
+
+local html-files ;
+for local file in [ glob *.adoc ]
+{
+	if [ MATCH "(_).*" : $(file) ]
+	{
+		continue ;
+	}
+	local html-file = $(file:B).html ;
+	html-files += $(file:B) ;
+	html $(file:B) : $(file)
+		: <name>$(html-file)
+		: <dependency>index-docinfo.html
+		;
+}
+explicit $(html-files) ;
+
+install html
+	: $(html-files)
+	: <location>.
+	;
