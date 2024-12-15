@@ -23,7 +23,7 @@ for local file in [ glob *.adoc ]
 }
 explicit $(html-files) ;
 
-install html
-	: $(html-files)
-	: <location>.
+install pub
+	: $(html-files) [ glob *.css *.png *.svg ]
+	: <location>.build/pub
 	;
