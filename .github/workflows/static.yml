@@ -52,6 +52,7 @@ jobs:
           popd
       - name: Build (Web)
         run: |
+          echo "using asciidoctor ;" > project-config.jam
           b2 --debug-configuration -d+2
       - name: Setup Pages
         uses: actions/configure-pages@main
