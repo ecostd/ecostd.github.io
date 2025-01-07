@@ -1,3 +1,4 @@
+[.container.is-max-desktop]
 = EcoStd
 :copyright: Copyright {docyear} René Ferdinand Rivera Morell
 :version-label!:
@@ -11,7 +12,6 @@
 :ecostd-logo-img: logo.svg
 
 // ----------------------------------------------------------------------------
-
 ++++
 <section class="hero">
 ++++
@@ -30,39 +30,113 @@ Standards for Programming Language Tools
 ++++
 </section>
 ++++
-
 // ----------------------------------------------------------------------------
 
+// ----------------------------------------------------------------------------
 ++++
 <section class="hero is-primary">
 ++++
 
 [.hero-body]
 --
+[.title.is-3]
+[.has-text-weight-bold.is-underlined]#What?#
+
 
 ++++
 <div class="columns">
 ++++
 
 [.column]
-[.title]#What?# +
+[.title]#Tools# +
  +
 We define standards for the tools that make programming tools work in harmony
-with each other.
+with each other. We aim to get compilers, package managers, build systems,
+development environments, debuggers, and more working together and
+interchangeably.
 
 [.column]
 [.title]#Languages# +
  +
 Our initial focus for tool standards is in bringing coherence and interoperation
-for the tools that drive the {CPP} programming language.
+for the tools that drive the {CPP} programming language. But we are thinking
+ahead to all programming working effortlessly together.
+
+++++
+</div>
+++++
+--
+
+++++
+</section>
+++++
+// ----------------------------------------------------------------------------
+
+// ----------------------------------------------------------------------------
+++++
+<section class="hero mx-6">
+++++
+
+[.hero-body.mx-6]
+--
+[.title.is-3]
+[.has-text-weight-bold.is-underlined]#Read#
+
+
+++++
+<div class="columns">
+++++
 
 [.column]
-[.title]#Getting Involved# +
+[.title]#Standards# +
+ +
+We are in the process of putting together the first release of basic {CPP}
+tools interoperability standards. You can read the in-progress draft as we work
+from RFCs. +
+ +
+[.button.has-text-weight-bold]#https://ecostd.github.io/standard/draft.html[READ DRAFT^]#
+
+++++
+</div>
+++++
+--
+
+++++
+</section>
+++++
+// ----------------------------------------------------------------------------
+
+// ----------------------------------------------------------------------------
+++++
+<section class="hero is-link">
+++++
+
+[.hero-body]
+--
+[.title.is-3]
+[.has-text-weight-bold.is-underlined]#Getting Involved#
+
+++++
+<div class="columns">
+++++
+
+[.column]
+[.title]#Community# +
+ +
+Our community has experts that work on compilers, package manager, build
+systems, and more. While we concentrate out initial efforts in {CPP} we are
+gathering in the {CPP} Ecosystem Evolution forum. +
+ +
+[.button.has-text-weight-bold]#https://groups.google.com/g/cxx-ecosystem-evolution[JOIN FORUM^]#
+
+[.column]
+[.title]#Contribute# +
  +
 We welcome contributions in our efforts for better programming through tools.
-But until we have a defined contribution process, you can join and inquire in
-the https://groups.google.com/g/cxx-ecosystem-evolution[{CPP} Ecosystem Evolution]
-forum.
+And we are working on a open contribution process. If you want to get an
+early start follow the changes in the RFCs repository. +
+ +
+[.button.has-text-weight-bold]#https://github.com/ecostd/rfcs[BROWSE RFCS^]#
 
 ++++
 </div>
@@ -73,7 +147,6 @@ forum.
 ++++
 </section>
 ++++
-
 // ----------------------------------------------------------------------------
 
 include::_footer.adoc[]
