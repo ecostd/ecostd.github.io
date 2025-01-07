@@ -1,4 +1,3 @@
-[.container.is-max-desktop]
 = EcoStd
 :copyright: Copyright {docyear} René Ferdinand Rivera Morell
 :version-label!:
@@ -18,7 +17,7 @@
 
 include::_nav.adoc[]
 
-[.hero-body]
+[.hero-body.container.is-max-desktop]
 --
 [.title.is-1]
 EcoStd
@@ -37,7 +36,7 @@ Standards for Programming Language Tools
 <section class="hero is-primary">
 ++++
 
-[.hero-body]
+[.hero-body.container.is-max-desktop]
 --
 [.title.is-3]
 [.has-text-weight-bold.is-underlined]#What?#
@@ -74,10 +73,10 @@ ahead to all programming working effortlessly together.
 
 // ----------------------------------------------------------------------------
 ++++
-<section class="hero mx-6">
+<section class="hero">
 ++++
 
-[.hero-body.mx-6]
+[.hero-body.container.is-max-desktop]
 --
 [.title.is-3]
 [.has-text-weight-bold.is-underlined]#Read#
@@ -111,7 +110,7 @@ from RFCs. +
 <section class="hero is-link">
 ++++
 
-[.hero-body]
+[.hero-body.container.is-max-desktop]
 --
 [.title.is-3]
 [.has-text-weight-bold.is-underlined]#Getting Involved#

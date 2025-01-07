@@ -1,7 +1,7 @@
 [subs=attributes]
 ++++
 <div class="hero-head">
-<nav class="navbar">
+<nav class="navbar mx-3 my-3">
 <div class="navbar-brand">
 	<a class="navbar-item" href="{ecostd-www}"><img src="{ecostd-logo-img}" alt="E" /></a>
 </div>
