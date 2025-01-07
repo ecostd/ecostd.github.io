@@ -59,7 +59,7 @@ interchangeably.
  +
 Our initial focus for tool standards is in bringing coherence and interoperation
 for the tools that drive the {CPP} programming language. But we are thinking
-ahead to all programming working effortlessly together.
+ahead to all programming tools working effortlessly together.
 
 ++++
 </div>
@@ -123,7 +123,7 @@ from RFCs. +
 [.title]#Community# +
  +
 Our community has experts that work on compilers, package manager, build
-systems, and more. While we concentrate out initial efforts in {CPP} we are
+systems, and more. While we concentrate our initial efforts in {CPP} we are
 gathering in the {CPP} Ecosystem Evolution forum. +
  +
 [.button.has-text-weight-bold]#https://groups.google.com/g/cxx-ecosystem-evolution[JOIN FORUM^]#
