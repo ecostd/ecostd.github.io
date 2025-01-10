@@ -2,11 +2,32 @@
 <footer class="footer">
 ++++
 
-[.content.has-text-centered]
+[.hero-body.container.is-max-desktop.px-6]
 --
-{copyright}. The website content is licensed
+++++
+<div class="columns mx-4">
+++++
+
+[.column]
+[.title.is-4]#Policies# +
+ +
+link:code-of-conduct.html[Code of Conduct]
+
+[.column]
+[.title.is-4]#Social# +
+ +
+https://github.com/ecostd[GitHub]
+
+
+++++
+</div>
+++++
+--
+
+[.container.has-text-centered.mt-6]
+{copyright} +
+The website content is licensed
 https://creativecommons.org/licenses/by-nc-nd/4.0/[CC BY-NC-ND 4.0].
---
 
 ++++
 </footer>

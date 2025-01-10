@@ -1,0 +1,13 @@
+:copyright: Copyright {docyear} René Ferdinand Rivera Morell
+:version-label!:
+:reproducible:
+:nofooter:
+:linkcss:
+:stylesheet: tweaks.css
+:docinfo: private
+:noheader:
+:ecostd-www: https://ecostd.github.io/
+:ecostd-logo-img: logo.svg
+:home-text: EcoStd
+:home-img: logo.svg
+:home-url: https://ecostd.github.io/

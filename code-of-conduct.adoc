@@ -1,0 +1,95 @@
+= Code of conduct
+include::_defs.adoc[]
+
+// ----------------------------------------------------------------------------
+++++
+<section class="hero">
+++++
+
+include::_nav.adoc[]
+
+[.hero-body.container.is-max-desktop]
+--
+[.title.is-1]
+Code of conduct
+--
+
+++++
+</section>
+++++
+// ----------------------------------------------------------------------------
+
+// ----------------------------------------------------------------------------
+++++
+<section class="hero is-warning">
+++++
+
+[.hero-body.container.is-max-desktop]
+--
+[.title.is-3]
+[.has-text-weight-bold.is-underlined]#Conduct#
+
+We expect everyone in our community to behave professionally, treat everyone
+with respect, be ethical in their conduct, and generally to avoid harm. As such
+we require everyone to follow the _ACM Code of Ethics and Professional Conduct_. +
+ +
+[.button.has-text-weight-bold.has-background-link-25]
+https://www.acm.org/code-of-ethics[READ ACM CODE OF ETHICS^]
+
+
+--
+
+++++
+</section>
+++++
+// ----------------------------------------------------------------------------
+
+// ----------------------------------------------------------------------------
+++++
+<section class="hero is-link">
+++++
+
+[.hero-body.container.is-max-desktop]
+--
+[.title.is-3]
+[.has-text-weight-bold.is-underlined]#Moderation#
+
+If you feel that a thread in any of the GitHub repositories or other community
+channels needs moderation, please contact the moderation team.
+
+. Remarks that are contrary to the code of ethics, of any form, are not allowed
+  in any of the various communications channels of the community.
+
+. The code of ethics is only a guideline as to what is acceptable or not.
+
+. Moderators can deem remarks not explicitly listed as unacceptably violating
+  the spirit of the community standards.
+
+. It is expected that the whole of the community cooperate in maintaining the
+  standards.
+
+. Although the actions taken by moderators in response to reports of violations
+  are not fixed they can include: a factual investigation; warnings; private
+  negotiation of a resolution (which may include an apology, probation,
+  and/or access restrictions); warnings; temporary restrictions; and extended
+  sanctions.
+
+. If you think a moderation action was unjustified attempt to resolve it with
+  the moderators first. And if unsuccessful contact the EcoStd owners for
+  possible further actions.
+
+. Individual moderators that has a conflict of interest in a complaint will not
+  participate in the handling of the complaint.
+
+[.button.has-text-weight-bold.has-background-link-25]
+mailto:ecostd-mods@allforall.network[EMAIL MODERATION TEAM^]
+
+
+--
+
+++++
+</section>
+++++
+// ----------------------------------------------------------------------------
+
+include::_footer.adoc[]

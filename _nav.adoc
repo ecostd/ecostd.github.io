@@ -3,11 +3,10 @@
 <div class="hero-head">
 <nav class="navbar mx-3 my-3">
 <div class="navbar-brand">
-	<a class="navbar-item" href="{ecostd-www}"><img src="{ecostd-logo-img}" alt="E" /></a>
+	<a class="navbar-item" href="{home-url}"> <img src="{home-img}" alt="E" /> {home-text}</a>
 </div>
 <div class="navbar-menu">
 	<div class="navbar-end">
-		<a class="navbar-item" href="https://github.com/ecostd">GitHub</a>
 	</div>
 </div>
 </nav>
