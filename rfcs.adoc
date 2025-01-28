@@ -1,0 +1,100 @@
+= RFC Process
+include::_defs.adoc[]
+:avatar-roles: is-pulled-left mr-3 mb-3 is-64x64 image
+
+// ----------------------------------------------------------------------------
+++++
+<section class="hero">
+++++
+
+include::_nav.adoc[]
+
+[.hero-body.container.is-max-desktop]
+--
+[.title.is-1]
+RFC Process
+
+[.subtitle]
+How the "`Request For Change`" (RFC) process works
+
+The RFC process controls how we make major changes to how the group operates
+and what the standards we produce contain. The RFC process is open and
+documented. It is structured to provide for everyone's input and to achieve
+consensus towards solutions. As part of the process the "Approval Voting Group"
+provides the final "rubber stamp" approval.
+
+[.button.has-text-weight-bold.mt-5]#https://ecostd.github.io/rfcs/[LEARN MORE]#
+--
+
+++++
+</section>
+++++
+// ----------------------------------------------------------------------------
+
+// ----------------------------------------------------------------------------
+++++
+<section class="hero is-warning">
+++++
+
+[.hero-body.container.is-max-desktop]
+--
+[.title.is-2]
+RFCs Approval Voting Group
+
+[.subtitle]
+Reviewing and approving RFCs that create the Ecosystem Standards
+
+[.title.is-3.mt-6]
+[.has-text-weight-bold.is-underlined]#Members#
+
+++++
+<div class="fixed-grid has-1-cols-mobile has-2-cols-desktop">
+<div class="grid">
+++++
+
+[.cell]
+image:https://avatars.githubusercontent.com/jbadwaik[role="{avatar-roles}"]
+[.title.is-4]#Jayesh Badwaik# +
+_Forschungszentrum Jülich_
+
+[.cell]
+image:https://avatars.githubusercontent.com/bretbrownjr[role="{avatar-roles}"]
+[.title.is-4]#Bret Brown# +
+_Bloomberg_ +
+{CPP} Infrastructure
+
+[.cell]
+image:https://avatars.githubusercontent.com/bruxisma[role="{avatar-roles}"]
+[.title.is-4]#Izzy Muerte# +
+https://ixm.one/[IXM] and tooling {CPP} WG21 proposals
+
+[.cell]
+image:https://avatars.githubusercontent.com/grafikrobot[role="{avatar-roles}"]
+[.title.is-4]#René Ferdinand Rivera Morell# +
+_Disbelief LLC, Boost {CPP} Libraries, {CPP} Alliance, Chicago {CPP} UG_ +
+https://www.bfgroup.xyz/b2/[B2] and tooling {CPP} WG21 proposals
+
+[.cell]
+image:https://avatars.githubusercontent.com/drodri[role="{avatar-roles}"]
+[.title.is-4]#Diego Rodriguez-Losada# +
+_JFrog_ +
+https://conan.io/[Conan]
+
+[.cell]
+image:https://avatars.githubusercontent.com/mwoehlke-kitware[role="{avatar-roles}"]
+[.title.is-4]#Matthew Woehlke# +
+_Kitware_ +
+https://github.com/cps-org/cps[Common Package Specification]
+
+++++
+</div>
+</div>
+++++
+--
+
+++++
+</section>
+++++
+// ----------------------------------------------------------------------------
+
+include::_footer.adoc[]
