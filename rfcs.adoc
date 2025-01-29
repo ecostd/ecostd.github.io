@@ -23,7 +23,7 @@ documented. It is structured to provide for everyone's input and to achieve
 consensus towards solutions. As part of the process the "Approval Voting Group"
 provides the final "rubber stamp" approval.
 
-[.button.has-text-weight-bold.mt-5]#https://ecostd.github.io/rfcs/[LEARN MORE]#
+[.button.has-text-weight-bold.mt-5]#link:./rfcs/[LEARN MORE]#
 --
 
 ++++
