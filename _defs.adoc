@@ -4,7 +4,7 @@
 :nofooter:
 :linkcss:
 :stylesheet: tweaks.css
-:docinfo: private
+:docinfo: shared
 :noheader:
 :ecostd-www: https://ecostd.github.io/
 :ecostd-logo-img: logo.svg

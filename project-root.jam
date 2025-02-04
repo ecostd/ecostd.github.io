@@ -18,7 +18,7 @@ for local file in [ glob *.adoc ]
 	html-files += $(file:B) ;
 	html $(file:B) : $(file)
 		: <name>$(html-file)
-		: <dependency>$(file:B)-docinfo.html
+		: <dependency>docinfo.html
 		;
 }
 explicit $(html-files) ;

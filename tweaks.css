@@ -1,0 +1,18 @@
+:root {
+  --ecostd-family-headline: "Ultra", "Inter", "SF Pro", "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --ecostd-family-title: "Urbanist", "Inter", "SF Pro", "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.title.is-1 {
+  font-family: var(--ecostd-family-headline);
+  font-weight: var(--bulma-weight-bold);
+}
+.title {
+  font-family: var(--ecostd-family-title);
+}
+.title .has-text-weight-bold {
+  font-optical-sizing: auto !important;
+  font-weight: 900 !important;
+  font-style: normal !important;
+}
