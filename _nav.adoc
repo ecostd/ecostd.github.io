@@ -7,8 +7,48 @@
 </div>
 <div class="navbar-menu">
 	<div class="navbar-end">
+		<div class="buttons are-small has-addons mr-4">
+			<button class="button is-selected is-success" data-theme-system><span class="theme-icon">☺</span></button>
+			<button class="button" data-theme-light><span class="theme-icon">☀</span></button>
+			<button class="button" data-theme-dark><span class="theme-icon">☾</span></button>
+		</div>
 	</div>
 </div>
 </nav>
 </div>
+<script type="text/javascript">
+//<![CDATA[
+const dt_system = document.querySelector("[data-theme-system]");
+const dt_light = document.querySelector("[data-theme-light]");
+const dt_dark = document.querySelector("[data-theme-dark]");
+const dt_on = "button is-selected is-success";
+const dt_off = "button";
+const dt_theme = localStorage.getItem("theme");
+dt_system.setAttribute("class", dt_theme === null ? dt_on : dt_off);
+dt_light.setAttribute("class", dt_theme === "light" ? dt_on : dt_off);
+dt_dark.setAttribute("class", dt_theme === "dark" ? dt_on : dt_off);
+document.querySelector("html").setAttribute("data-theme", dt_theme);
+dt_system.addEventListener("click", () => {
+	document.querySelector("html").setAttribute("data-theme", null);
+	dt_system.setAttribute("class", dt_on);
+	dt_light.setAttribute("class", dt_off);
+	dt_dark.setAttribute("class", dt_off);
+	localStorage.setItem("theme", null);
+});
+dt_light.addEventListener("click", () => {
+	document.querySelector("html").setAttribute("data-theme", "light");
+	dt_system.setAttribute("class", dt_off);
+	dt_light.setAttribute("class", dt_on);
+	dt_dark.setAttribute("class", dt_off);
+	localStorage.setItem("theme", "light");
+});
+dt_dark.addEventListener("click", () => {
+	document.querySelector("html").setAttribute("data-theme", "dark");
+	dt_system.setAttribute("class", dt_off);
+	dt_light.setAttribute("class", dt_off);
+	dt_dark.setAttribute("class", dt_on);
+	localStorage.setItem("theme", "dark");
+});
+//]]>
+</script>
 ++++

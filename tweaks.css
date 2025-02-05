@@ -16,3 +16,6 @@
   font-weight: 900 !important;
   font-style: normal !important;
 }
+.theme-icon {
+  font-size: var(--bulma-size-normal);
+}
