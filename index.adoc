@@ -124,10 +124,10 @@ gathering in the {CPP} Ecosystem Evolution forum. +
 [.title]#Contribute# +
  +
 We welcome contributions in our efforts for better programming through tools.
-And we are working on a open contribution process. If you want to get an
-early start follow the changes in the RFCs repository. +
+We have an open RFC contribution process that was informed from our experiences
+with, and study of, other standards and design processes. +
  +
-[.button.has-text-weight-bold]#https://github.com/ecostd/rfcs[BROWSE RFCS^]#
+[.button.has-text-weight-bold]#link:rfcs.html[ABOUT RFCs]#
 
 ++++
 </div>

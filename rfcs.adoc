@@ -57,11 +57,13 @@ image:https://avatars.githubusercontent.com/jbadwaik[role="{avatar-roles}"]
 [.title.is-4]#Jayesh Badwaik# +
 _Forschungszentrum Jülich_
 
+////
 [.cell]
 image:https://avatars.githubusercontent.com/bretbrownjr[role="{avatar-roles}"]
 [.title.is-4]#Bret Brown# +
 _Bloomberg_ +
 {CPP} Infrastructure
+////
 
 [.cell]
 image:https://avatars.githubusercontent.com/bruxisma[role="{avatar-roles}"]
@@ -80,11 +82,13 @@ image:https://avatars.githubusercontent.com/drodri[role="{avatar-roles}"]
 _JFrog_ +
 https://conan.io/[Conan^]
 
+////
 [.cell]
 image:https://avatars.githubusercontent.com/mwoehlke-kitware[role="{avatar-roles}"]
 [.title.is-4]#Matthew Woehlke# +
 _Kitware_ +
 https://github.com/cps-org/cps[Common Package Specification^]
+////
 
 ++++
 </div>
