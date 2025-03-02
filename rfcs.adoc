@@ -57,6 +57,12 @@ image:https://avatars.githubusercontent.com/jbadwaik[role="{avatar-roles}"]
 [.title.is-4]#Jayesh Badwaik# +
 _Forschungszentrum Jülich_
 
+[.cell]
+image:https://www.kitware.com/main/wp-content/uploads/2021/12/Employee-Portrait-Ben-Boeckel-600x600-1.jpg[role="{avatar-roles}"]
+[.title.is-4]#Ben Boeckel# +
+_Kitware_ +
+CMake, https://wg21.link/P2977[Build Database Files^]
+
 ////
 [.cell]
 image:https://avatars.githubusercontent.com/bretbrownjr[role="{avatar-roles}"]
@@ -71,7 +77,7 @@ image:https://avatars.githubusercontent.com/bruxisma[role="{avatar-roles}"]
 https://ixm.one/[IXM^] and tooling {CPP} WG21 proposals
 
 [.cell]
-image:https://avatars.githubusercontent.com/grafikrobot[role="{avatar-roles}"]
+image:https://cppalliance.org/images/people/rene.jpg[role="{avatar-roles}"]
 [.title.is-4]#René Ferdinand Rivera Morell# +
 _Disbelief LLC, Boost {CPP} Libraries, {CPP} Alliance, Chicago {CPP} UG_ +
 https://www.bfgroup.xyz/b2/[B2^] and tooling {CPP} WG21 proposals
@@ -81,14 +87,6 @@ image:https://avatars.githubusercontent.com/drodri[role="{avatar-roles}"]
 [.title.is-4]#Diego Rodriguez-Losada# +
 _JFrog_ +
 https://conan.io/[Conan^]
-
-////
-[.cell]
-image:https://avatars.githubusercontent.com/mwoehlke-kitware[role="{avatar-roles}"]
-[.title.is-4]#Matthew Woehlke# +
-_Kitware_ +
-https://github.com/cps-org/cps[Common Package Specification^]
-////
 
 ++++
 </div>
