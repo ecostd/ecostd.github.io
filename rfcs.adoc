@@ -1,6 +1,6 @@
 = RFC Process
 include::_defs.adoc[]
-:avatar-roles: is-pulled-left mr-3 mb-3 is-64x64 image
+:avatar-roles: is-pulled-left mr-3 mb-3 is-64x64 image is-clipped
 
 // ----------------------------------------------------------------------------
 ++++
@@ -63,13 +63,11 @@ image:https://www.kitware.com/main/wp-content/uploads/2021/12/Employee-Portrait-
 _Kitware_ +
 CMake, https://wg21.link/P2977[Build Database Files^]
 
-////
 [.cell]
-image:https://avatars.githubusercontent.com/bretbrownjr[role="{avatar-roles}"]
+image:https://accuconference.org/static/img/profiles/2025/bret_brown.jpg[role="{avatar-roles}"]
 [.title.is-4]#Bret Brown# +
 _Bloomberg_ +
 {CPP} Infrastructure
-////
 
 [.cell]
 image:https://avatars.githubusercontent.com/bruxisma[role="{avatar-roles}"]
